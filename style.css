@@ -1,0 +1,89 @@
+/* 
+
+
+
+
+
+TO DO:
+
+(1) Add grid layout to Today's Weather Section
+(2) Add grid layout to Current Weather Data Section
+
+
+
+
+
+
+
+
+ */
+
+
+/* STYLES */
+body {
+    background-color: gainsboro;
+}
+
+.page-title {
+    color: rgb(62, 101, 103);
+    background-color: rgb(160, 231, 255);
+}
+
+.section {
+    background-color: rgb(143, 188, 164);
+    
+    padding: 5rem 1rem;
+    margin: 0rem 1rem;
+}
+
+.container-forecast {
+    background-color: lightsteelblue;
+    border: 0.5rem solid slategray;
+
+    min-height: 10rem;
+    padding-left: 1rem;
+}
+
+.item-forecast {
+    text-align: center;
+    border: 0.5rem solid slategray;
+
+    min-height: 5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+footer {
+    background-color: lightseagreen;
+    text-align: center;
+
+    min-height: 1rem;
+}
+/* END OF STYLES */
+
+
+
+/* LAYOUTS */
+
+/* Current Weather Layouts */
+.container-current {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.section {
+    flex-basis: 45rem;
+}
+
+
+/* Seven-Day Forecast Layouts */
+.list-forecast {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.item-forecast {
+    flex-basis: 10rem;
+}
+/* END OF LAYOUTS */
